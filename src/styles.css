@@ -1,0 +1,123 @@
+.Überschrift {
+    background-color: rgb(29, 139, 21);
+    color: black;
+    padding: 10px;
+}
+
+.block {
+    float: left;
+    width: 25%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 100px;
+}
+
+.block > div {
+    vertical-align: top;
+    display: inline-block;
+
+}
+
+.übungsContainer {
+    width: 250px;
+    height: 250px;
+    background-color: lightslategray;
+    border: 5px solid #ccc;
+    float: left;
+}
+
+.übungsContainer h1 {
+    text-align: center;
+}
+
+.übungsContainer button {
+    background: transparent;
+    border: none !important;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    position: relative;
+}
+
+p.GymBroParagraph {
+    line-height: 0.2;
+}
+
+.GymBroContainer {
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    width: 200px;
+    height: 300px;
+    background-color: #5098d7;
+
+}
+
+.upgradeContainer {
+    width: 250;
+    height: 120;
+    background-color: #a52a2a;
+    border: 5px solid #ccc;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.upgradeContainer button {
+    background: transparent;
+    border: none !important;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    position: absolute;
+    right: 20;
+}
+
+.upgradeContainer div{
+    overflow: scroll;
+}
+
+.supUpgradeContainer {
+    float: left;
+    position: relative;
+    padding-left: 10px;
+    bottom: 30px;
+}
+
+aside {
+    position: absolute;
+    top: 100;
+    right: 0;
+    padding: 15px;
+    margin: 15px;
+    font-style: italic;
+    background-color: lightgray;
+}
+
+.lifeEvents {
+    position: absolute;
+    top: 100;
+    right: 300px;
+    padding: 15px;
+    margin: 15px;
+    font-style: italic;
+    background-color: lightgray;
+}
+
+.lifeEventReloadBar {
+    width: 250px;
+    height: 120px;
+    background-color: rgba(134, 58, 58, 0.38);
+}
+
+.lifeEventHearder {
+    position: absolute;
+    top: 90px;
+    right: 100px;
+
+}
+
+
+
+
+
